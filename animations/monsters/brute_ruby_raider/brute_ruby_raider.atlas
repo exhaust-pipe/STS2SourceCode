@@ -1,0 +1,70 @@
+brute_ruby_raider.png
+size:366,519
+filter:Linear,Linear
+scale:0.292
+bottom foot
+bounds:328,55,50,32
+rotate:90
+bottom hand
+bounds:321,12,41,42
+rotate:90
+bottom lower arm
+bounds:2,2,76,85
+offsets:0,0,77,85
+rotate:90
+bottom lower leg
+bounds:103,12,71,96
+bottom shoulder
+bounds:114,110,83,102
+rotate:90
+bottom upper arm
+bounds:285,315,75,110
+bottom upper leg
+bounds:137,195,85,137
+rotate:90
+chestplate
+bounds:2,390,135,127
+offsets:0,3,135,130
+chestplate back
+bounds:209,427,113,90
+offsets:3,0,116,90
+eyes
+bounds:108,273,19,6
+fist profile
+bounds:273,20,38,46
+rotate:90
+hair copy
+bounds:108,281,27,107
+hair shadow
+bounds:176,4,30,104
+offsets:1,2,32,111
+helmet
+bounds:208,18,63,86
+hips
+bounds:276,185,118,75
+rotate:90
+hood
+bounds:2,80,69,99
+rotate:90
+shadow
+bounds:139,282,235,68
+offsets:1,0,243,73
+rotate:90
+top foot
+bounds:324,472,45,40
+rotate:90
+top hand
+bounds:273,60,45,53
+rotate:90
+top lower arm
+bounds:271,107,64,76
+top lower leg
+bounds:209,305,74,120
+top shoulder
+bounds:2,151,93,110
+rotate:90
+top upper arm
+bounds:218,106,51,87
+top upper leg
+bounds:2,246,104,142
+offsets:0,0,104,147

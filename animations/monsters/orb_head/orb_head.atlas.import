@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bycihaxrap83c"
+path="res://.godot/imported/orb_head.atlas-3370400ed36199dd07b4840e62c129cb.spatlas"
+
+[deps]
+
+source_file="res://animations/monsters/orb_head/orb_head.atlas"
+dest_files=["res://.godot/imported/orb_head.atlas-3370400ed36199dd07b4840e62c129cb.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

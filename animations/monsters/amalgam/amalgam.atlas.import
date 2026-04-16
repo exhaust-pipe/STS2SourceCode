@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://ci5an2urvep84"
+path="res://.godot/imported/amalgam.atlas-26ad8883bc1057299c44bd2bc8ed953d.spatlas"
+
+[deps]
+
+source_file="res://animations/monsters/amalgam/amalgam.atlas"
+dest_files=["res://.godot/imported/amalgam.atlas-26ad8883bc1057299c44bd2bc8ed953d.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"
