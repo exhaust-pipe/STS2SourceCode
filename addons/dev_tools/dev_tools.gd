@@ -68,14 +68,11 @@ func _clear_nuget_cache() -> void :
 
     var output: Array = []
 
-    var temp_dir: String = OS.get_cache_dir()
-    var exit_code: int
-    if OS.get_name() == "Windows":
-        var cmd: String = "cd /d \"%s\" && \"%s\" nuget locals all --clear" % [temp_dir, dotnet_path]
-        exit_code = OS.execute("cmd", ["/c", cmd], output, true)
-    else:
-        var cmd: String = "cd '%s' && '%s' nuget locals all --clear" % [temp_dir, dotnet_path]
-        exit_code = OS.execute("bash", ["-c", cmd], output, true)
+    # Invoke dotnet directly instead of composing a shell command. Both the
+    # editor-configured path and the cache directory can contain shell
+    # metacharacters, so passing either through cmd/bash would permit command
+    # injection. `dotnet nuget locals` does not require a working directory.
+    var exit_code: int = OS.execute(dotnet_path, ["nuget", "locals", "all", "--clear"], output, true)
 
     var result_text: String = ""
     for line in output:
